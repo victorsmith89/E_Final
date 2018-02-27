@@ -1,0 +1,201 @@
+body {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: dancing script;
+  background: #02010a;
+}
+
+header {
+  background: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 70px;
+}
+
+header h1 {
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  display: inline-block;
+  margin: 15px 0px 0px 30px;
+}
+
+nav {
+  height: 100%;
+  float: right;
+  top: 0px;
+}
+
+nav ul {
+  color: white;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: auto 5px auto 5px;
+  padding: 15px 0px;
+  font-weight: bold;
+}
+
+.img_central {
+  background: #82c3a6;
+  padding: 15px;
+}
+
+.img_central img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 88%;
+}
+
+.img_secundaria {
+  display: flex;
+  background: #d5c75f;
+  border-radius: 1px;
+  margin: 0px;
+}
+
+.img_secundaria img {
+  width: 90%;
+}
+
+.paisaje2 {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 1s;
+}
+
+.paisaje2:hover {
+  transform: rotate(10deg);
+}
+
+.retrato {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 1s;
+}
+
+.retrato:hover {
+  transform: translate(20px, -5px);
+}
+
+footer {
+  border-radius: 0px 0px 10px 10px;
+  background: #C6d5c5;
+  display: flex;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 20px auto 20px auto;
+}
+
+footer>ul>li:first-child {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+img[src$='jpg'] {
+  box-shadow: 2px 2px 2px #02010a;
+}
+
+< !--Link Paisajes-->.seccion-paisajes {
+  margin: auto;
+}
+
+.orden-paisajes {
+  display: flex;
+  flex-direction: wrap;
+  background: #d5c75f;
+}
+
+.orden-paisajes img {
+  width: 100%;
+}
+
+.pa01 {
+  order: 1;
+  -webkit-filter: blur (10px);
+  filter: blur(10px);
+}
+
+.pa02 {
+  order: 2;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.pa03 {
+  order: 3;
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+
+.pa04 {
+  order: 4;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.pa05 {
+  order: 5;
+}
+
+.pa06 {
+  order: 6;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+< !--Link Retratos-->.seccion-retratos {
+  margin: auto;
+}
+
+.orden-retratos {
+  display: flex;
+  flex-direction: wrap;
+  background: #d5c75f;
+}
+
+.orden-retratos img {
+  width: 100%;
+}
+
+.re01 {
+  order: 1;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.re02 {
+  order: 2;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.re03 {
+  order: 3;
+  -webkit-filter: sepia(90%);
+}
+
+.re04 {
+  order: 4;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.re05 {
+  order: 5;
+}
+
+.re06 {
+  order: 6;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
